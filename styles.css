@@ -1,0 +1,154 @@
+.body{
+      background-color: #BBE1FA;
+}
+.intro{
+      background-color: #e4f9f5;
+      display: block;
+      width: 100%;
+      align-items: center;
+      text-align: center;
+      padding-top: 150px;
+      padding-bottom: 150px;
+}
+.intro > h1, h2{
+      color: #1B262C;
+      font-family: 'Poppins', sans-serif;
+}
+html,body {
+      margin:0;
+      padding:0;
+}
+.profile{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+}
+.profile{
+      width: 200px;
+      border-radius: 50%;
+      margin-top: 50px;
+      margin-bottom: 50px;
+}
+.aboutme h2{
+      text-align: center;
+}
+.about-text{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      text-align: justify;
+      font-family: 'Poppins', sans-serif;
+      margin-bottom: 100px;
+}
+#skills{
+      text-align: center;
+      padding-top: 50px;
+}
+.resume{
+      background-color: #e4f9f5;
+      padding-bottom: 50px;
+}
+.lists{
+      display: flex;
+      text-align: center;
+}
+.frontend{
+      flex: 50%;
+      font-family: 'Poppins', sans-serif;
+}     
+.misc{
+      flex: 50%;
+      font-family: 'Poppins', sans-serif;
+}
+li{
+      list-style: none;
+}
+.project{
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 70px;
+}
+
+.github{
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 20px;
+      background-color: black;
+      padding-top: 30px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 10px;
+      border-radius: 10px;
+}
+#gmark{
+      width: 40px;
+}
+#glogo{
+      width: 70px;
+}
+#project-text{
+      padding-bottom: 30px;
+}
+.contact{
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      background-color: #e4f9f5;
+      
+}
+#mail ,#insta, #linked{
+      width: 40px;
+      padding: 20px;
+}
+#link{
+      width: 40px;
+      float: right;
+}
+#copy{
+      width: 15px;
+}
+#gmarkw{
+      width: 40px;
+      float: right;
+      padding-right: 5px;
+}
+#copy-text{
+      font-family: 'Poppins', sans-serif;
+}
+a{
+      text-decoration: none;
+}
+footer > img{
+      display: inline;
+      width:100%;
+}
+footer{
+      padding-top: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 5px;
+      background-color: #b7d7ff;
+}
+@media (max-width: 650px){
+      body{
+            font-size: small;
+      }
+      #mail ,#insta, #linked{
+            width: 40px;
+            padding: 20px;
+      }
+      #link{
+            width: 30px;
+            float: right;
+      }
+      #copy{
+            width: 10px;
+      }
+      #gmarkw{
+            width: 30px;
+            float: right;
+            padding-right: 5px;
+      }
+}
