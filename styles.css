@@ -61,6 +61,8 @@ html,body {
 .misc{
       flex: 50%;
       font-family: 'Poppins', sans-serif;
+      margin-right: 25px;
+      /* border: 2px solid black; */
 }
 li{
       list-style: none;
